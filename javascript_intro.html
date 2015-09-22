@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript Class Exercise</title>
+    </head>
+    <body>
+        <h1>Utah Cities</h1>
+        <form>
+            <p>Enter City: <input type="text" onkeyup="populate_suggestions(this.value)"></p>
+        </form>
+        <p>Suggestions:</p>
+        <div id="sug"></div>
+        
+        
+        
+        
+        
+        <script>
+            var cities = ['Provo','Cedar Hills','Lehi','American Fork','Pleasant Grove','Tooele','Aneth','Beaver','Bear River City','Alpine','Altamont','Alton','Altonah'];
+            
+            
+        
+            function populate_suggestions(str) {
+                str = str.toUpperCase();
+                
+                var list = '<ul>';
+                for(i = 0; i < cities.length; i++) {
+                    
+                    city_caps = cities[i].toUpperCase()
+                    
+                    if(str !== '' && city_caps.indexOf(str) === 0) {
+                        list +='<li>' + cities[i] + '</li>';
+                    }
+                }
+                
+                list += '</ul>'
+                
+                
+                document.getElementById('sug').innerHTML = list;
+                
+                
+            }
+        </script>
+    </body>
+</html>
