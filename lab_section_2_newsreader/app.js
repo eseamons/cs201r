@@ -10,8 +10,12 @@ var main = function() {
   $(document).keypress(function(event) {
     if(event.which === 111) {
     //   $('.description').hide();
-    //made improvments so it can toggle
-      $('.current').children('.description').toggle();
+   
+        //if focus in textfield for city, o will not make comments show //addition
+        if(!$('#cityfield').is(':focus')) {
+             //made improvments so it can toggle
+            $('.current').children('.description').toggle();
+        }
     }
 
     else if(event.which === 110) {

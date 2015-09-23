@@ -67,9 +67,11 @@ p {
 }
 
 #weather-block {
-   background-color:#ffffff;
+   background-color: rgb(255,255,255);
     width: 600px;
     height: auto;
     padding:50px;
    margin: 0 auto;
+   opacity:.9;
+   font-size: 20px;
 }
