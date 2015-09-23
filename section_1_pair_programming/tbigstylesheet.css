@@ -1,0 +1,285 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.gradient
+{
+    position: fixed;
+    background-image: linear-gradient(#990229, #550206);
+    height: 100%;
+    width: 12%;
+}
+
+#left
+{
+    left: 0px;
+}
+#right
+{
+    right: 0px;
+    float: right;
+}
+
+#logo
+{
+    position: absolute;
+    top: 1%;
+    left: 14%;
+    width: 180px;
+}
+
+#quote
+{
+    position: absolute;
+    border-radius: 10px;
+    border: 2px solid #530727;
+    background-image: linear-gradient(#990229, #550206);
+    top: 3%;
+    right: 13.5%;
+    width: 250px;
+    height: 45px;
+}
+#quote-text
+{
+    position: relative;
+    text-align: center;
+    bottom: -6px;
+    color: white;
+    font-family: Trebuchet MS;
+    font-size: 1.5em;
+}
+#tbros
+{
+    position: absolute;
+    width: 450px;
+    top: 9%;
+    left: 30%;
+}
+#my_menu
+{
+    position: absolute;
+    width: 76%;
+    height: 30px;
+    top: 29%;
+    left: 12%;
+    border-top: 1px solid gray;
+    background-image: radial-gradient(white, #dddddd);
+    right: 50%;
+}
+.menu-links
+{
+    position: relative;
+    bottom: -3px;
+    font-family: Trebuchet MS;
+    font-size: 13px;
+    left: 3%;
+}
+#autoins-menu
+{
+    left: 11%;
+}
+#homeins-menu
+{
+    left: 19%;
+}
+#otherins-menu
+{
+    left: 27%;
+}
+#about-menu
+{
+    left: 35%;
+}
+#contact-menu
+{
+    left: 43%;
+}
+#faq-menu
+{
+    left: 51%;
+}
+
+#banner
+{
+    position: absolute;
+    left: 14%;
+    top: 35%;
+    width: 72%;
+    border: 4px solid black;
+    border-radius: 10px;
+}
+
+.carousel_image
+{
+    display: block;
+    margin:0 auto;
+}
+
+h1
+{
+    position: relative;
+    top: 75px;
+    text-align: center;
+}
+.ins-type
+{
+    position: absolute;
+    height: 130px;
+    width: 170px;
+    top: 73%;
+}
+#auto
+{
+    left: 14%;
+}
+#home
+{
+    left: 29%;
+}
+#atv
+{
+    left: 44%;
+}
+#business
+{
+    left: 59%;
+}
+#family
+{
+    left: 74%;
+    width: 160px;
+}
+h6
+{
+    z-index: 1;
+    color: white;
+    position: absolute;
+    top: 10%;
+    font-family: Trebuchet MS;
+    font-size: 1em;
+}
+.button
+{
+    position: absolute;
+    border-radius: 10px;
+    border: 2px solid #530727;
+    background-image: linear-gradient(#990229, #550206);
+    top: 94%;
+    right: 13.5%;
+    width: 170px;
+    height: 45px;
+}
+#auto-button
+{
+    left: 14%;
+}
+#autoins
+{
+    left: 40%;
+}
+#home-button
+{
+    left: 29%;
+}
+#homeins
+{
+    left: 40%;
+}
+#toy-button
+{
+    left: 44%;
+}
+#toyins
+{
+    left: 10%;
+}
+#business-button
+{
+    left: 59%;
+}
+#businessins
+{
+    left: 35%;
+}
+#life-button
+{
+    left: 74%;
+}
+#lifeins
+{
+    left: 27%;
+}
+
+#review
+{
+    font-family: Trebuchet MS;
+    font-size: 1.4em;
+    position: absolute;
+    top: 12%;
+    right: 17%;
+}
+.icon
+{
+    position: absolute;
+    top: 17%;
+    width: 70px;
+    height: 70px;
+}
+#facebook
+{
+    top: 17.2%;
+    width: 65px;
+    height: 65px;
+    right: 27%;
+}
+#gplus
+{
+    right: 20.9%;
+}
+#yelp
+{
+    right: 15%;
+}
+#welcome
+{
+    position: absolute;
+    top: 101%;
+    left: 14%;
+    font-family: Trebuchet MS;
+    color: #990229;
+    border-bottom: 2px solid #dddddd;
+}
+#home-paragraph
+{
+    position: absolute;
+    top: 115%;
+    left: 14%;
+    width: 70%;
+    font-family: Trebuchet MS;
+}
+#footer {
+    position:absolute;
+    height: 130px;
+    width: 100%;
+    border-top: 1px solid gray;
+    background-image: radial-gradient(white, #dddddd);
+    z-index: -1;
+    top:200%;
+}
+
+#footer_contact_info {
+    text-align:center;
+    position: relative;
+    bottom: 14%;
+    margin-top: 20px;
+    font-size: 20px;
+}
+#footer-contact-text
+{
+    position: relative;
+    bottom: 19%;
+    text-align: center;
+    font-size: 12px;
+}
