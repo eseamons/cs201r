@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>XKCD</title>
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        
+    <style>
+        /*img {*/
+        /*    display:block;*/
+        /*    margin: auto;*/
+        /*}*/
+    </style>
+    </head>
+    <body>
+       
+       
+       <h1 id="title"></h1>
+       <img id="test">
+       <br>
+       <div id="xkcd">No Comic</div>
+       
+        <script>
+            var myurl = "http://dynamic.xkcd.com/api-0/jsonp/comic?callback=?";
+            console.log(myurl);
+            $.ajax({
+                url: myurl,
+                dataType : "jsonp",
+                success: function(parsed_json) {
+                    var description = parsed_json['alt'];
+                    var mysrc = parsed_json['img'];
+                    var title = parsed_json['title'];
+                    
+                    $("#xkcd").html(description);
+                    $("#xkcd").css('text-align','center');
+                    $('#test').attr('src',mysrc);
+                    $('#test').css({
+                        'display':'block',
+                        'margin':'auto',
+                    });
+                    $('#title').html(title);
+                    $('#title').css('text-align','center');
+                }
+            });
+        </script>
+        
+    </body>
+</html>
