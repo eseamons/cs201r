@@ -27,16 +27,12 @@
        <div id="top-tracks-list"></div>
        
         <script>
-            
             $("#search-button").click(function(e){
-              var artist_name = $('#artist').val();
-              var artist_id = '';
-              //reset
-              $('#artist').val('');
-              $('#top-tracks-list').html('');
+             var artist_name = $('#artist').val();
               
               
-              
+              //the false variable exists because even if the singer dosn't exist, the api still returns a json object,
+              //so you need to check if the person actually exists.
               var found = false;
               $.ajax({
                     url: 'https://api.spotify.com/v1/search',
@@ -45,8 +41,12 @@
                         type: 'artist'
                     },
                     success: function (response) {
-                        
-                        // alert(JSON.stringify(response));
+                        //reset
+                        var artist_id = '';
+                        $('#artist').val('');
+                                  
+                                  
+                                  
                         var artists = response['artists']['items'];
                         $.each(artists,function(key) {
                             $('#artist-name').text(artist);
@@ -54,7 +54,6 @@
                             
                             var followers = artist['followers']['total'];
                             artist_id = artist['id'];
-                            // alert(artist_id);
                             var artist_name = artist['name'];
                             
                             
@@ -64,10 +63,12 @@
                             var images_list = artist['images'];
                             
                             
+                            var image = '';
+                            
                             $.each(images_list,function(key) {
-                                var image = images_list[key];
+                                image = images_list[key];
                                 
-                                if(image['height'] >= 300) {
+                                if(image['height'] >= 200) {
                                     $('#artist-image').attr('src',image['url']);
                                     $('#google-link').attr('href','http://www.google.com/search?q=' + artist_name);
                                 }
@@ -80,12 +81,16 @@
                             getTracks(artist_id);
                             
                             
+                            if(image === '') {
+                                $('#artist-image').attr('src','');
+                            }
+                            
                             return false;
                         });
                         
                         
                         if(found === false) {
-                            alert('Sorry. The singer ' + artist + ' could not be found');
+                            alert('Sorry. The singer ' + artist_name + ' could not be found');
                         }
                     }
                     
@@ -101,12 +106,13 @@
             
             
             
-            
+            //function to get top tracks for a singer. Just pass in the id
             var getTracks = function(id) {
                 //alert(id);
                 
-                var myurl = 'https://api.spotify.com/v1/artists/' + id + '/top-tracks?country=US';
                 
+                var myurl = 'https://api.spotify.com/v1/artists/' + id + '/top-tracks?country=US';
+                $('#top-tracks-list').html('');
                 //alert(myurl);
                 
                  $.ajax({
