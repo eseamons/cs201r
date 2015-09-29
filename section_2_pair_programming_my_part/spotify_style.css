@@ -1,3 +1,15 @@
+/*body {*/
+/*    background-image: url("http://thefilmbox.org/wp-content/uploads/2014/10/25916-blue-background-material.jpg");*/
+/*}*/
+
+html {
+background: url("http://thefilmbox.org/wp-content/uploads/2014/10/25916-blue-background-material.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 input:-webkit-autofill {
     -webkit-box-shadow: 0 0 0 1000px white inset;
 }
@@ -10,11 +22,14 @@ input:-webkit-autofill {
 #artist-name {
     text-align:center;
     font-size:20px;
+    color: #FFFFFF;
 }
 
 #title {
     text-align:center;
-    font-size: 50px;
+    font-size: 70px;
+    color:#FFFFFF;
+    font-family:verdana;
 }
 #form-div {
    text-align:center;
@@ -22,6 +37,7 @@ input:-webkit-autofill {
 #followers {
     text-align:center;
     font-size: 20px;
+    color:#FFFFFF;
 }
 #top-tracks-list {
     width: 260px;
