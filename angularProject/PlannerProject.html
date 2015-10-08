@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="plannerStyle.css">
+		<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+		<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+		<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+		<script src="http://code.angularjs.org/1.2.9/angular.min.js"></script>
+		<script src="js/app.js"></script>
+		<script src="js/datepicker.js"></script>
+		<script src="js/modalDirective.js"></script>
+	</head>
+	<body ng-app="myApp" ng-controller="FirstController">
+		<div class="page">
+			<form method="post" action="spreadsheet.html">
+				<table class="formdata" summary="This table contains a form">
+					<caption>Todays date</caption>
+					  <tr>
+						<th scope="col">Time</th>
+						<th scope="col">Planned Activities</th>
+					  </tr>
+				</table>
+			</form>
+		</div>
+	
+	  <!-- Modal for creating an event-->  	  
+  <modal title="Create New Event" visible="showModal">
+    <form role="form" ng-submit="createEvent()">
+      <div class="form-group">
+        <label for="title">Event name:</label>
+        <input type="text" class="form-control" ng-model="data.eventTitle" placeholder="Event Title" ng-required="true" />
+      </div>
+      <div class="form-group">
+        <label>Description:</label>
+        <br>
+        <textarea rows="4" cols="77" ng-model="data.eventDescription" ng-required="true"></textarea>
+      </div>
+      <div class="form-group">
+        <label>Event Date: </label>
+        <input type="text" ng-model="data.eventDate" datepicker ng-required="true"/>
+      </div>
+      <button class="btn btn-default">Save Event</button>
+    </form>
+  </modal>
+ </body>
+</html>
