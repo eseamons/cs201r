@@ -5,4 +5,4 @@ http.createServer(function (request, response) {
     
 }).listen(8124);
 
-console.log('Server running ');
+console.log('server running on port 8124');
