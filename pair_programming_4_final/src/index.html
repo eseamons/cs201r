@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+ <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="./app.js"></script>
+<link rel="stylesheet" type="text/css" href="./style.css">
+  <meta charset="utf-8">
+  <title>Hebert Family Recipe Book</title>
+</head>
+<body style ="background-color: #E7E7DA; background-image: url(http://prozessagenten.org/wp-content/uploads/2012/09/table.gif); background-repeat: no-repeat; background-size: cover;background-attachment:fixed;">
+
+  <div id='app' ng-app='app' ng-controller='mainCtrl'>
+ 
+ <div class = "center" style = "font-family: cursive; background-color:#97A38B; width: 920px; height: 60px;text-align:center;">
+     <h1 class = "col-md-9">The Hebert Family Recipe Book</h1>
+     <button type="button" class="btn btn-success">Add Recipe To Page</button>
+ </div> 
+
+    <ul ng-if='recipe.length' class = "center" style = "margin-top: 0px">
+    <div class = "col-md-3" style = "background-color: grey" >
+        <li ng-repeat='r in recipe' class='recipe list' style = "height: 350px; border-bottom: thick dotted #000000;">
+        <h1 style = "font-family: cursive;">{{ r.name }}</h1>
+        <img class='avatar' ng-src="{{r.ImageUrl}}" />
+      </li>
+        
+    </div>
+    <div class = "col-md-4" style = "background-color: #C2C2A3; font-weight: bold;" >
+            <li ng-repeat='recip in recipe' class='recipe list' style = "height: 350px;">
+                <h1 style= "color: white">Directions</h1>
+                <p ng-repeat = 'direction in recip.directions'>
+                    {{direction.order + direction.instruction}}
+                </p>
+                <h3  style= "color: white">Ingredients</h3>
+                <p ng-repeat = 'ingredient in recip.ingredients'>
+                    {{ingredient.quantity + '--' + ingredient.item}}
+                    </p>
+    </div>
+    </ul>
+        <form class = "center">
+                                        <span class = "field_names">Dish Name</span><br> <input type="text" ng-model="DishInput" size="20" placeholder="Add New"><br>
+                                        <span class = "field_names">Course</span><br> 
+                                            <select type="text" ng-model="courseInput" size="1" placeholder="Add New">
+                                                <option value = "Appetizers">Appetizers </option>
+                                                <option value = "Entrees">Entrees </option>
+                                                <option value = "Sides">Sides </option>
+                                            </select><br>
+                                                
+                                        <span class = "field_names">Description</span><br> <input type="text" ng-model="DescriptionInput" size="20" placeholder="Add New"><br>
+                                        <span class = "field_names">Price</span><br> <input type="text" ng-model="PriceInput" size="20" placeholder="Add New"><br>
+                                        <br>
+                                      </form>
+</div>
+<div>
+
+</div>
+
+</body>
+</html>
