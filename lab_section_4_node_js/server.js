@@ -1,7 +1,7 @@
 var fs = require('fs');
 var http = require('http');
 var url = require('url');
-var ROOT_DIR = "html";
+var ROOT_DIR = "src";
 
 console.log("Server Running...");
 
