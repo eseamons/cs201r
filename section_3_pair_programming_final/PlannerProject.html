@@ -15,7 +15,7 @@
 		<div class="page">
 			<form method="post" action="spreadsheet.html">
 				<table class="formdata" summary="This table contains a form">
-					<caption>Todays date</caption>
+					<caption><h1>{{todaysDate}}</h1></caption>
 					  <tr>
 						<th scope="col">Time</th>
 						<th scope="col">Planned Activities</th>
@@ -40,6 +40,35 @@
         <label>Event Date: </label>
         <input type="text" ng-model="data.eventDate" datepicker ng-required="true"/>
       </div>
+	  <div class="form-group">
+		<label>Event Time: </label>
+        <select type="text" ng-model="data.eventTime"/>
+			<option>12am</option>
+			<option>1am</option>
+			<option>2am</option>
+			<option>3am</option>
+			<option>4am</option>
+			<option>5am</option>
+			<option>6am</option>
+			<option>7am</option>
+			<option>8am</option>
+			<option>9am</option>
+			<option>10am</option>
+			<option>11am</option>
+			<option>12pm</option>
+			<option>1pm</option>
+			<option>2pm</option>
+			<option>3pm</option>
+			<option>4pm</option>
+			<option>5pm</option>
+			<option>6pm</option>
+			<option>7pm</option>
+			<option>8pm</option>
+			<option>9pm</option>
+			<option>10pm</option>
+			<option>11pm</option>
+		</select>
+	  </div>
       <button class="btn btn-default">Save Event</button>
     </form>
   </modal>
