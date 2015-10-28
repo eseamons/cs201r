@@ -1,0 +1,32 @@
+nohup: ignoring input
+comment route
+In GET
+Failed to load c++ bson extension, using pure JS version
+Document Array: 
+[ { _id: 56301cb88df696a420434864,
+    Name: 'Eric',
+    Comment: 'The weather is getting colder' } ]
+comment route
+POST comment route
+{ Name: 'Julieta', Comment: 'I don\'t like the cold' }
+Name: Julieta
+Comment: I don't like the cold
+Record added as 56301d39ba044c2e2102307c
+comment route
+In GET
+Document Array: 
+[ { _id: 56301cb88df696a420434864,
+    Name: 'Eric',
+    Comment: 'The weather is getting colder' },
+  { _id: 56301d39ba044c2e2102307c,
+    Name: 'Julieta',
+    Comment: 'I don\'t like the cold' } ]
+comment route
+In GET
+Document Array: 
+[ { _id: 56301cb88df696a420434864,
+    Name: 'Eric',
+    Comment: 'The weather is getting colder' },
+  { _id: 56301d39ba044c2e2102307c,
+    Name: 'Julieta',
+    Comment: 'I don\'t like the cold' } ]

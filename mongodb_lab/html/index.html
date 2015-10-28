@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script>
+$(document).ready(function(){
+    $("#serialize").click(function(){
+        var myobj = {Name:$("#Name").val(),Comment:$("#Comment").val()};
+        jobj = JSON.stringify(myobj);
+        $("#json").text(jobj);
+        var url = "comment";
+        $.post(url,jobj,function(data,textStatus) {
+          $("#done").append(textStatus + "\n");
+        });
+    });
+    $("#show-list").click(function() {
+        var url = "comment";
+      $.getJSON(url,function(data) {
+        var everything;
+        everything = "<ul>";
+        $.each(data, function(i,item) {
+          everything += "<li> Name: "+data[i].Name+" Comment: "+data[i].Comment;
+        });
+        everything += "</ul>";
+        $("#currentComments").html(everything);
+      });
+
+    });
+});
+</script>
+</head>
+<body>
+
+<form id="commentForm" action="">
+  Name: <input type="text" id="Name" value="Mickey"><br>
+  comment: <input type="text" id="Comment" value="Hello"><br>
+</form>
+
+<br>
+<button id="serialize">Serialize form values</button>
+<br>
+<br>
+<button id="show-list">Show Current Comments</button>
+<br>
+
+<div id="json"></div>
+<div id="done"></div>
+<div id="currentComments"></div>
+
+</body>
+</html>
