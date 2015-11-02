@@ -57,7 +57,7 @@ var http = require('http');
 var url = require('url');
 var fs = require('fs');
 var ROOT_DIR = "src/";
-var port = 4000;
+var port = 3500;
 
 http.createServer(function (req, res) {
   var urlObj = url.parse(req.url, true, false);
