@@ -17,7 +17,7 @@ $(document).ready(function(){
         var url = "comment";
       $.getJSON(url,function(data) {
         var everything;
-        everything = "<ul>";
+        everything = "<p>Current Comments:</p><ul>";
         $.each(data, function(i,item) {
           everything += "<li> Name: "+data[i].Name+" Comment: "+data[i].Comment;
         });
@@ -33,18 +33,17 @@ $(document).ready(function(){
 
 <form id="commentForm" action="">
   Name: <input type="text" id="Name" value="Mickey"><br>
-  comment: <input type="text" id="Comment" value="Hello"><br>
+  Comment: <input type="text" id="Comment" value="Hello"><br>
 </form>
 
 <br>
-<button id="serialize">Serialize form values</button>
-<br>
-<br>
-<button id="show-list">Show Current Comments</button>
+<button id="serialize">Submit Comment</button>
+<button id="show-list">Show Comments</button>
 <br>
 
 <div id="json"></div>
 <div id="done"></div>
+<br>
 <div id="currentComments"></div>
 
 </body>

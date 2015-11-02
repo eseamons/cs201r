@@ -1,0 +1,43 @@
+body {
+    background-image: url("http://www.freeimageslive.co.uk/image/view/7024/_original");
+    background-size: 100%;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px white inset;
+}
+
+#title {
+    color: #fff;
+    font-size:60px;
+    text-align:center;
+}
+
+#view_button {
+    margin-top:30px;
+    text-align:center;
+}
+
+#table-spacing {
+    margin-top:50px;
+}
+
+table td,th {
+   text-align: center;   
+}
+
+.panel-body {
+    text-align:center;
+}
+
+.stud_button {
+    margin-bottom:25px;
+}
+
+.panel-title {
+    text-align:center;
+}
+
+#checkbox_style {
+   text-align:center;
+}

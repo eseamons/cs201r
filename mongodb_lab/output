@@ -30,3 +30,105 @@ Document Array:
   { _id: 56301d39ba044c2e2102307c,
     Name: 'Julieta',
     Comment: 'I don\'t like the cold' } ]
+comment route
+In GET
+Document Array: 
+[ { _id: 56301cb88df696a420434864,
+    Name: 'Eric',
+    Comment: 'The weather is getting colder' },
+  { _id: 56301d39ba044c2e2102307c,
+    Name: 'Julieta',
+    Comment: 'I don\'t like the cold' } ]
+comment route
+In GET
+Document Array: 
+[ { _id: 56301cb88df696a420434864,
+    Name: 'Eric',
+    Comment: 'The weather is getting colder' },
+  { _id: 56301d39ba044c2e2102307c,
+    Name: 'Julieta',
+    Comment: 'I don\'t like the cold' } ]
+comment route
+In GET
+Document Array: 
+[ { _id: 56301cb88df696a420434864,
+    Name: 'Eric',
+    Comment: 'The weather is getting colder' },
+  { _id: 56301d39ba044c2e2102307c,
+    Name: 'Julieta',
+    Comment: 'I don\'t like the cold' } ]
+comment route
+In GET
+Document Array: 
+[ { _id: 56301cb88df696a420434864,
+    Name: 'Eric',
+    Comment: 'The weather is getting colder' },
+  { _id: 56301d39ba044c2e2102307c,
+    Name: 'Julieta',
+    Comment: 'I don\'t like the cold' } ]
+comment route
+POST comment route
+{ Name: 'Ryan', Comment: 'I prefer warm weather' }
+Name: Ryan
+Comment: I prefer warm weather
+Record added as 56301f3cba044c2e2102307d
+comment route
+In GET
+Document Array: 
+[ { _id: 56301cb88df696a420434864,
+    Name: 'Eric',
+    Comment: 'The weather is getting colder' },
+  { _id: 56301d39ba044c2e2102307c,
+    Name: 'Julieta',
+    Comment: 'I don\'t like the cold' },
+  { _id: 56301f3cba044c2e2102307d,
+    Name: 'Ryan',
+    Comment: 'I prefer warm weather' } ]
+comment route
+In GET
+Document Array: 
+[ { _id: 56301cb88df696a420434864,
+    Name: 'Eric',
+    Comment: 'The weather is getting colder' },
+  { _id: 56301d39ba044c2e2102307c,
+    Name: 'Julieta',
+    Comment: 'I don\'t like the cold' },
+  { _id: 56301f3cba044c2e2102307d,
+    Name: 'Ryan',
+    Comment: 'I prefer warm weather' } ]
+comment route
+In GET
+Document Array: 
+[ { _id: 56301cb88df696a420434864,
+    Name: 'Eric',
+    Comment: 'The weather is getting colder' },
+  { _id: 56301d39ba044c2e2102307c,
+    Name: 'Julieta',
+    Comment: 'I don\'t like the cold' },
+  { _id: 56301f3cba044c2e2102307d,
+    Name: 'Ryan',
+    Comment: 'I prefer warm weather' } ]
+comment route
+In GET
+Document Array: 
+[ { _id: 56301cb88df696a420434864,
+    Name: 'Eric',
+    Comment: 'The weather is getting colder' },
+  { _id: 56301d39ba044c2e2102307c,
+    Name: 'Julieta',
+    Comment: 'I don\'t like the cold' },
+  { _id: 56301f3cba044c2e2102307d,
+    Name: 'Ryan',
+    Comment: 'I prefer warm weather' } ]
+comment route
+In GET
+Document Array: 
+[ { _id: 56301cb88df696a420434864,
+    Name: 'Eric',
+    Comment: 'The weather is getting colder' },
+  { _id: 56301d39ba044c2e2102307c,
+    Name: 'Julieta',
+    Comment: 'I don\'t like the cold' },
+  { _id: 56301f3cba044c2e2102307d,
+    Name: 'Ryan',
+    Comment: 'I prefer warm weather' } ]
