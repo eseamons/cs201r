@@ -18,7 +18,7 @@
 
 <link rel="stylesheet" type="text/css" href="style.css">
   <meta charset="utf-8">
-  <title>Grade Viewer</title>
+  <title>Academic Report</title>
 </head>
 <body>
   <h1 id="title">Academic Report</h1>
@@ -53,6 +53,7 @@
                                      <th>Major</th>
                                      <th>Class Standing</th>
                                      <th>Edit</th>
+				     <th>Delete</th>
                                   </tr>
                                   
                                   <tr ng-repeat="s in students">
@@ -63,18 +64,19 @@
                                      <td>{{s.major}}</td>
                                      <td>{{s.class_standing}}</td>
                                      <td><button ng-click="edit_record($index)"><span class="glyphicon glyphicon-pencil"></span> Edit</button></td>
+				     <td><button ng-click="delete_student($index)"><span class="glyphicon glyphicon-trash"></span> Delete</button></td>
                                   </tr>
                                   
                                 </table>
                                 <div id="checkbox_style">
                                     <input ng-model="show_full" type="checkbox"><label> Show full records</label>
                                 </div>
-                                
+                                <br>
                                 
                                 <div class="row stud_button">
                                     <div class="col-sm-12">
                                         <div class="text-center">
-                                            <button  ng-click="add_student()" class="btn btn-default">Add Student</button>
+                                            <button  ng-click="add_student()" class="btn btn-default"><span class="glyphicon glyphicon-plus"></span> Add Student</button>
                                         </div>
                                     </div>
                                 </div>
@@ -90,7 +92,7 @@
                             <div class="row stud_button">
                                     <div class="col-sm-12">
                                         <div class="text-center">
-                                            <button  ng-click="add_student()" class="btn btn-default">Add Student</button>
+                                            <button  ng-click="add_student()" class="btn btn-default"><span class="glyphicon glyphicon-plus"></span> Add Student</button>
                                         </div>
                                     </div>
                             </div>
@@ -110,19 +112,34 @@
           <modal title="" visible="showModal">
             <form role="form" ng-submit="submitStudent()">
               <div class="form-group">
-                <label for="title">Student Name:</label>
+                <label for="name">Student Name:</label>
                 <input id="input_name" type="text" class="form-control" ng-model="data.studName" placeholder="Name" ng-required="true" />
               </div>
               <div class="form-group">
-                <label for="title">Age:</label>
+                <label for="age">Age:</label>
                 <input id="input_age" type="text" class="form-control" ng-model="data.studAge" placeholder="Age" ng-required="true" />
               </div>
+
+<div class="form-group">
+        <label for="gender">Gender:</label>
+        <div class="radio">
+            <label>
+                <input type="radio" name="gender" ng-click="radio()" value="M" ng-model="data.studGender" ng-required="true">
+                Male
+            </label>
+        </div>
+        <div class="radio">
+            <label>
+                <input type="radio" name="gender" ng-click="radio()" value="F" ng-model="data.studGender" ng-required="true">
+                Female
+            </label>
+        </div>
+    </div>
+
+
+
               <div class="form-group">
-                <label for="title">Gender:</label>
-                <input id="input_gender" type="text" class="form-control" ng-model="data.studGender" placeholder="Gender" ng-required="true" />
-              </div>
-              <div class="form-group">
-                <label for="title">GPA:</label>
+                <label for="gpa">GPA:</label>
                 <input id="input_gpa" type="text" class="form-control" ng-model="data.studGpa" placeholder="GPA" ng-required="true" />
               </div>
               <div class="form-group">
@@ -130,9 +147,14 @@
                 <input id="input_major" type="text" class="form-control" ng-model="data.studMajor" placeholder="Major" ng-required="true" />
               </div>
               <div class="form-group">
-                <label for="title">Class Standing:</label>
-                <input id="input_class_standing" type="text" class="form-control" ng-model="data.studClassStanding" placeholder="Class Standing" ng-required="true" />
+               <label for="class_standing"> Class Standing: </label>
+                <select name="class_standing" id="input_class_standing" ng-model="data.studClassStanding" ng-required="true">
+                  <option ng-repeat="option in data.options" value="{{option.value}}">{{option.name}}</option>
+                </select>
               </div>
+              
+
+
               <button class="btn btn-default">Save</button>
             </form>
           </modal>
