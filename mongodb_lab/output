@@ -5,375 +5,6 @@ Failed to load c++ bson extension, using pure JS version
 Document Array: 
 [ { _id: 56301cb88df696a420434864,
     Name: 'Eric',
-    Comment: 'The weather is getting colder' } ]
-comment route
-POST comment route
-{ Name: 'Julieta', Comment: 'I don\'t like the cold' }
-Name: Julieta
-Comment: I don't like the cold
-Record added as 56301d39ba044c2e2102307c
-comment route
-In GET
-Document Array: 
-[ { _id: 56301cb88df696a420434864,
-    Name: 'Eric',
-    Comment: 'The weather is getting colder' },
-  { _id: 56301d39ba044c2e2102307c,
-    Name: 'Julieta',
-    Comment: 'I don\'t like the cold' } ]
-comment route
-In GET
-Document Array: 
-[ { _id: 56301cb88df696a420434864,
-    Name: 'Eric',
-    Comment: 'The weather is getting colder' },
-  { _id: 56301d39ba044c2e2102307c,
-    Name: 'Julieta',
-    Comment: 'I don\'t like the cold' } ]
-comment route
-In GET
-Document Array: 
-[ { _id: 56301cb88df696a420434864,
-    Name: 'Eric',
-    Comment: 'The weather is getting colder' },
-  { _id: 56301d39ba044c2e2102307c,
-    Name: 'Julieta',
-    Comment: 'I don\'t like the cold' } ]
-comment route
-In GET
-Document Array: 
-[ { _id: 56301cb88df696a420434864,
-    Name: 'Eric',
-    Comment: 'The weather is getting colder' },
-  { _id: 56301d39ba044c2e2102307c,
-    Name: 'Julieta',
-    Comment: 'I don\'t like the cold' } ]
-comment route
-In GET
-Document Array: 
-[ { _id: 56301cb88df696a420434864,
-    Name: 'Eric',
-    Comment: 'The weather is getting colder' },
-  { _id: 56301d39ba044c2e2102307c,
-    Name: 'Julieta',
-    Comment: 'I don\'t like the cold' } ]
-comment route
-In GET
-Document Array: 
-[ { _id: 56301cb88df696a420434864,
-    Name: 'Eric',
-    Comment: 'The weather is getting colder' },
-  { _id: 56301d39ba044c2e2102307c,
-    Name: 'Julieta',
-    Comment: 'I don\'t like the cold' } ]
-comment route
-POST comment route
-{ Name: 'Ryan', Comment: 'I prefer warm weather' }
-Name: Ryan
-Comment: I prefer warm weather
-Record added as 56301f3cba044c2e2102307d
-comment route
-In GET
-Document Array: 
-[ { _id: 56301cb88df696a420434864,
-    Name: 'Eric',
-    Comment: 'The weather is getting colder' },
-  { _id: 56301d39ba044c2e2102307c,
-    Name: 'Julieta',
-    Comment: 'I don\'t like the cold' },
-  { _id: 56301f3cba044c2e2102307d,
-    Name: 'Ryan',
-    Comment: 'I prefer warm weather' } ]
-comment route
-In GET
-Document Array: 
-[ { _id: 56301cb88df696a420434864,
-    Name: 'Eric',
-    Comment: 'The weather is getting colder' },
-  { _id: 56301d39ba044c2e2102307c,
-    Name: 'Julieta',
-    Comment: 'I don\'t like the cold' },
-  { _id: 56301f3cba044c2e2102307d,
-    Name: 'Ryan',
-    Comment: 'I prefer warm weather' } ]
-comment route
-In GET
-Document Array: 
-[ { _id: 56301cb88df696a420434864,
-    Name: 'Eric',
-    Comment: 'The weather is getting colder' },
-  { _id: 56301d39ba044c2e2102307c,
-    Name: 'Julieta',
-    Comment: 'I don\'t like the cold' },
-  { _id: 56301f3cba044c2e2102307d,
-    Name: 'Ryan',
-    Comment: 'I prefer warm weather' } ]
-comment route
-In GET
-Document Array: 
-[ { _id: 56301cb88df696a420434864,
-    Name: 'Eric',
-    Comment: 'The weather is getting colder' },
-  { _id: 56301d39ba044c2e2102307c,
-    Name: 'Julieta',
-    Comment: 'I don\'t like the cold' },
-  { _id: 56301f3cba044c2e2102307d,
-    Name: 'Ryan',
-    Comment: 'I prefer warm weather' } ]
-comment route
-In GET
-Document Array: 
-[ { _id: 56301cb88df696a420434864,
-    Name: 'Eric',
-    Comment: 'The weather is getting colder' },
-  { _id: 56301d39ba044c2e2102307c,
-    Name: 'Julieta',
-    Comment: 'I don\'t like the cold' },
-  { _id: 56301f3cba044c2e2102307d,
-    Name: 'Ryan',
-    Comment: 'I prefer warm weather' } ]
-comment route
-POST comment route
-{ Name: 'Mickey', Comment: 'Hello' }
-Name: Mickey
-Comment: Hello
-Record added as 5636dd9bba044c2e2102307e
-comment route
-POST comment route
-{ Name: 'Mickey', Comment: 'Hello' }
-Name: Mickey
-Comment: Hello
-Record added as 5636dd9bba044c2e2102307f
-comment route
-POST comment route
-{ Name: 'Mickey', Comment: 'Hello' }
-Name: Mickey
-Comment: Hello
-Record added as 5636dd9cba044c2e21023080
-comment route
-In GET
-Document Array: 
-[ { _id: 56301cb88df696a420434864,
-    Name: 'Eric',
-    Comment: 'The weather is getting colder' },
-  { _id: 56301d39ba044c2e2102307c,
-    Name: 'Julieta',
-    Comment: 'I don\'t like the cold' },
-  { _id: 56301f3cba044c2e2102307d,
-    Name: 'Ryan',
-    Comment: 'I prefer warm weather' },
-  { _id: 5636dd9bba044c2e2102307e,
-    Name: 'Mickey',
-    Comment: 'Hello' },
-  { _id: 5636dd9bba044c2e2102307f,
-    Name: 'Mickey',
-    Comment: 'Hello' },
-  { _id: 5636dd9cba044c2e21023080,
-    Name: 'Mickey',
-    Comment: 'Hello' } ]
-comment route
-POST comment route
-{ Name: 'Mickey', Comment: 'Hello' }
-Name: Mickey
-Comment: Hello
-Record added as 5636dda1ba044c2e21023081
-comment route
-POST comment route
-{ Name: 'Mickey', Comment: 'Hello' }
-Name: Mickey
-Comment: Hello
-Record added as 5636dda2ba044c2e21023082
-comment route
-POST comment route
-{ Name: 'Mickey', Comment: 'Hello' }
-Name: Mickey
-Comment: Hello
-Record added as 5636dda2ba044c2e21023083
-comment route
-POST comment route
-{ Name: 'Mickey', Comment: 'Hello' }
-Name: Mickey
-Comment: Hello
-Record added as 5636dda2ba044c2e21023084
-comment route
-POST comment route
-{ Name: 'Mickey', Comment: 'Hello' }
-Name: Mickey
-Comment: Hello
-Record added as 5636dda2ba044c2e21023085
-comment route
-POST comment route
-{ Name: 'Mickey', Comment: 'Hello' }
-Name: Mickey
-Comment: Hello
-Record added as 5636dda3ba044c2e21023086
-comment route
-In GET
-Document Array: 
-[ { _id: 56301cb88df696a420434864,
-    Name: 'Eric',
-    Comment: 'The weather is getting colder' },
-  { _id: 56301d39ba044c2e2102307c,
-    Name: 'Julieta',
-    Comment: 'I don\'t like the cold' },
-  { _id: 56301f3cba044c2e2102307d,
-    Name: 'Ryan',
-    Comment: 'I prefer warm weather' },
-  { _id: 5636dd9bba044c2e2102307e,
-    Name: 'Mickey',
-    Comment: 'Hello' },
-  { _id: 5636dd9bba044c2e2102307f,
-    Name: 'Mickey',
-    Comment: 'Hello' },
-  { _id: 5636dd9cba044c2e21023080,
-    Name: 'Mickey',
-    Comment: 'Hello' },
-  { _id: 5636dda1ba044c2e21023081,
-    Name: 'Mickey',
-    Comment: 'Hello' },
-  { _id: 5636dda2ba044c2e21023082,
-    Name: 'Mickey',
-    Comment: 'Hello' },
-  { _id: 5636dda2ba044c2e21023083,
-    Name: 'Mickey',
-    Comment: 'Hello' },
-  { _id: 5636dda2ba044c2e21023084,
-    Name: 'Mickey',
-    Comment: 'Hello' },
-  { _id: 5636dda2ba044c2e21023085,
-    Name: 'Mickey',
-    Comment: 'Hello' },
-  { _id: 5636dda3ba044c2e21023086,
-    Name: 'Mickey',
-    Comment: 'Hello' } ]
-comment route
-In GET
-Document Array: 
-[ { _id: 56301cb88df696a420434864,
-    Name: 'Eric',
-    Comment: 'The weather is getting colder' },
-  { _id: 56301d39ba044c2e2102307c,
-    Name: 'Julieta',
-    Comment: 'I don\'t like the cold' },
-  { _id: 56301f3cba044c2e2102307d,
-    Name: 'Ryan',
-    Comment: 'I prefer warm weather' },
-  { _id: 5636dd9bba044c2e2102307e,
-    Name: 'Mickey',
-    Comment: 'Hello' },
-  { _id: 5636dd9bba044c2e2102307f,
-    Name: 'Mickey',
-    Comment: 'Hello' },
-  { _id: 5636dd9cba044c2e21023080,
-    Name: 'Mickey',
-    Comment: 'Hello' },
-  { _id: 5636dda1ba044c2e21023081,
-    Name: 'Mickey',
-    Comment: 'Hello' },
-  { _id: 5636dda2ba044c2e21023082,
-    Name: 'Mickey',
-    Comment: 'Hello' },
-  { _id: 5636dda2ba044c2e21023083,
-    Name: 'Mickey',
-    Comment: 'Hello' },
-  { _id: 5636dda2ba044c2e21023084,
-    Name: 'Mickey',
-    Comment: 'Hello' },
-  { _id: 5636dda2ba044c2e21023085,
-    Name: 'Mickey',
-    Comment: 'Hello' },
-  { _id: 5636dda3ba044c2e21023086,
-    Name: 'Mickey',
-    Comment: 'Hello' } ]
-comment route
-In GET
-Document Array: 
-[ { _id: 56301cb88df696a420434864,
-    Name: 'Eric',
-    Comment: 'The weather is getting colder' },
-  { _id: 56301d39ba044c2e2102307c,
-    Name: 'Julieta',
-    Comment: 'I don\'t like the cold' },
-  { _id: 56301f3cba044c2e2102307d,
-    Name: 'Ryan',
-    Comment: 'I prefer warm weather' },
-  { _id: 5636dd9bba044c2e2102307e,
-    Name: 'Mickey',
-    Comment: 'Hello' },
-  { _id: 5636dd9bba044c2e2102307f,
-    Name: 'Mickey',
-    Comment: 'Hello' },
-  { _id: 5636dd9cba044c2e21023080,
-    Name: 'Mickey',
-    Comment: 'Hello' },
-  { _id: 5636dda1ba044c2e21023081,
-    Name: 'Mickey',
-    Comment: 'Hello' },
-  { _id: 5636dda2ba044c2e21023082,
-    Name: 'Mickey',
-    Comment: 'Hello' },
-  { _id: 5636dda2ba044c2e21023083,
-    Name: 'Mickey',
-    Comment: 'Hello' },
-  { _id: 5636dda2ba044c2e21023084,
-    Name: 'Mickey',
-    Comment: 'Hello' },
-  { _id: 5636dda2ba044c2e21023085,
-    Name: 'Mickey',
-    Comment: 'Hello' },
-  { _id: 5636dda3ba044c2e21023086,
-    Name: 'Mickey',
-    Comment: 'Hello' } ]
-comment route
-In GET
-Document Array: 
-[ { _id: 56301cb88df696a420434864,
-    Name: 'Eric',
-    Comment: 'The weather is getting colder' },
-  { _id: 56301d39ba044c2e2102307c,
-    Name: 'Julieta',
-    Comment: 'I don\'t like the cold' },
-  { _id: 56301f3cba044c2e2102307d,
-    Name: 'Ryan',
-    Comment: 'I prefer warm weather' },
-  { _id: 5636dd9bba044c2e2102307e,
-    Name: 'Mickey',
-    Comment: 'Hello' },
-  { _id: 5636dd9bba044c2e2102307f,
-    Name: 'Mickey',
-    Comment: 'Hello' },
-  { _id: 5636dd9cba044c2e21023080,
-    Name: 'Mickey',
-    Comment: 'Hello' },
-  { _id: 5636dda1ba044c2e21023081,
-    Name: 'Mickey',
-    Comment: 'Hello' },
-  { _id: 5636dda2ba044c2e21023082,
-    Name: 'Mickey',
-    Comment: 'Hello' },
-  { _id: 5636dda2ba044c2e21023083,
-    Name: 'Mickey',
-    Comment: 'Hello' },
-  { _id: 5636dda2ba044c2e21023084,
-    Name: 'Mickey',
-    Comment: 'Hello' },
-  { _id: 5636dda2ba044c2e21023085,
-    Name: 'Mickey',
-    Comment: 'Hello' },
-  { _id: 5636dda3ba044c2e21023086,
-    Name: 'Mickey',
-    Comment: 'Hello' } ]
-comment route
-POST comment route
-{ Name: 'Jordan', Comment: 'A TA was here...' }
-Name: Jordan
-Comment: A TA was here...
-Record added as 5637a1a7ba044c2e21023087
-comment route
-In GET
-Document Array: 
-[ { _id: 56301cb88df696a420434864,
-    Name: 'Eric',
     Comment: 'The weather is getting colder' },
   { _id: 56301d39ba044c2e2102307c,
     Name: 'Julieta',
@@ -410,13 +41,28 @@ Document Array:
     Comment: 'Hello' },
   { _id: 5637a1a7ba044c2e21023087,
     Name: 'Jordan',
-    Comment: 'A TA was here...' } ]
+    Comment: 'A TA was here...' },
+  { _id: 5637a1b0ba044c2e21023088,
+    Name: 'Jordan',
+    Comment: 'Looks great!' } ]
 comment route
 POST comment route
-{ Name: 'Jordan', Comment: 'Looks great!' }
-Name: Jordan
-Comment: Looks great!
-Record added as 5637a1b0ba044c2e21023088
+{ Name: 'Mickey', Comment: 'Hello' }
+Name: Mickey
+Comment: Hello
+Record added as 563c442af4d3253b29279b37
+comment route
+POST comment route
+{ Name: 'Mickey', Comment: 'Hello' }
+Name: Mickey
+Comment: Hello
+Record added as 563c442bf4d3253b29279b38
+comment route
+POST comment route
+{ Name: 'Mickey', Comment: 'Hello' }
+Name: Mickey
+Comment: Hello
+Record added as 563c442cf4d3253b29279b39
 comment route
 In GET
 Document Array: 
@@ -461,4 +107,76 @@ Document Array:
     Comment: 'A TA was here...' },
   { _id: 5637a1b0ba044c2e21023088,
     Name: 'Jordan',
-    Comment: 'Looks great!' } ]
+    Comment: 'Looks great!' },
+  { _id: 563c442af4d3253b29279b37,
+    Name: 'Mickey',
+    Comment: 'Hello' },
+  { _id: 563c442bf4d3253b29279b38,
+    Name: 'Mickey',
+    Comment: 'Hello' },
+  { _id: 563c442cf4d3253b29279b39,
+    Name: 'Mickey',
+    Comment: 'Hello' } ]
+comment route
+POST comment route
+{ Name: 'Mickey', Comment: 'Test' }
+Name: Mickey
+Comment: Test
+Record added as 563c44e7f4d3253b29279b3a
+comment route
+In GET
+Document Array: 
+[ { _id: 56301cb88df696a420434864,
+    Name: 'Eric',
+    Comment: 'The weather is getting colder' },
+  { _id: 56301d39ba044c2e2102307c,
+    Name: 'Julieta',
+    Comment: 'I don\'t like the cold' },
+  { _id: 56301f3cba044c2e2102307d,
+    Name: 'Ryan',
+    Comment: 'I prefer warm weather' },
+  { _id: 5636dd9bba044c2e2102307e,
+    Name: 'Mickey',
+    Comment: 'Hello' },
+  { _id: 5636dd9bba044c2e2102307f,
+    Name: 'Mickey',
+    Comment: 'Hello' },
+  { _id: 5636dd9cba044c2e21023080,
+    Name: 'Mickey',
+    Comment: 'Hello' },
+  { _id: 5636dda1ba044c2e21023081,
+    Name: 'Mickey',
+    Comment: 'Hello' },
+  { _id: 5636dda2ba044c2e21023082,
+    Name: 'Mickey',
+    Comment: 'Hello' },
+  { _id: 5636dda2ba044c2e21023083,
+    Name: 'Mickey',
+    Comment: 'Hello' },
+  { _id: 5636dda2ba044c2e21023084,
+    Name: 'Mickey',
+    Comment: 'Hello' },
+  { _id: 5636dda2ba044c2e21023085,
+    Name: 'Mickey',
+    Comment: 'Hello' },
+  { _id: 5636dda3ba044c2e21023086,
+    Name: 'Mickey',
+    Comment: 'Hello' },
+  { _id: 5637a1a7ba044c2e21023087,
+    Name: 'Jordan',
+    Comment: 'A TA was here...' },
+  { _id: 5637a1b0ba044c2e21023088,
+    Name: 'Jordan',
+    Comment: 'Looks great!' },
+  { _id: 563c442af4d3253b29279b37,
+    Name: 'Mickey',
+    Comment: 'Hello' },
+  { _id: 563c442bf4d3253b29279b38,
+    Name: 'Mickey',
+    Comment: 'Hello' },
+  { _id: 563c442cf4d3253b29279b39,
+    Name: 'Mickey',
+    Comment: 'Hello' },
+  { _id: 563c44e7f4d3253b29279b3a,
+    Name: 'Mickey',
+    Comment: 'Test' } ]
