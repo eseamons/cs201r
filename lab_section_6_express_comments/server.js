@@ -9,7 +9,8 @@ var options = {
     key: fs.readFileSync('ssl/server.key'),
     cert: fs.readFileSync('ssl/server.crt')
 };
-  http.createServer(app).listen(80);
+  http.createServer(app).listen(7000);
+  console.log("app running on port 7000");
   https.createServer(options, app).listen(443);
   app.get('/', function (req, res) {
     res.send("Get Index");
