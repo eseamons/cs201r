@@ -1,0 +1,213 @@
+
+> midterm_2_music@0.0.0 start /opt/bitnami/apache2/htdocs/cs201r/midterm_2_music
+> node ./bin/www
+
+[0mGET /index.html [36m304 [0m8.580 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m1.986 ms - -[0m
+[0mGET /songs [36m304 [0m17.238 ms - -[0m
+[0mPOST /songs [32m200 [0m31.030 ms - 235[0m
+[0mPUT /songs/564e7f4e5c8a133d04249884/upvote [32m200 [0m8.283 ms - 235[0m
+[0mPUT /songs/564e7f4e5c8a133d04249884/upvote [32m200 [0m3.411 ms - 235[0m
+[0mPUT /songs/564e7f4e5c8a133d04249884/upvote [32m200 [0m2.350 ms - 235[0m
+[0mPUT /songs/564e7f4e5c8a133d04249884/upvote [32m200 [0m2.995 ms - 235[0m
+[0mPUT /songs/564e7729d2f00389028044fa/upvote [32m200 [0m2.567 ms - 234[0m
+[0mPUT /songs/564e7f4e5c8a133d04249884/upvote [32m200 [0m2.142 ms - 235[0m
+[0mPUT /songs/564e7d392a6561f7039b6660/upvote [32m200 [0m3.020 ms - 202[0m
+[0mPUT /songs/564e7e122a6561f7039b6661/upvote [32m200 [0m3.526 ms - 10213[0m
+[0mPUT /songs/564e7729d2f00389028044fa/upvote [32m200 [0m2.560 ms - 234[0m
+[0mPUT /songs/564e7f4e5c8a133d04249884/upvote [32m200 [0m3.562 ms - 235[0m
+Terminated
+
+npm ERR! Linux 3.13.0-65-generic
+npm ERR! argv "/opt/bitnami/nodejs/bin/.node.bin" "/opt/bitnami/nodejs/bin/npm" "start"
+npm ERR! node v4.1.1
+npm ERR! npm  v2.14.4
+npm ERR! code ELIFECYCLE
+npm ERR! midterm_2_music@0.0.0 start: `node ./bin/www`
+npm ERR! Exit status 143
+npm ERR! 
+npm ERR! Failed at the midterm_2_music@0.0.0 start script 'node ./bin/www'.
+npm ERR! This is most likely a problem with the midterm_2_music package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node ./bin/www
+npm ERR! You can get their info via:
+npm ERR!     npm owner ls midterm_2_music
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /opt/bitnami/apache2/htdocs/cs201r/midterm_2_music/npm-debug.log
+
+> midterm_2_music@0.0.0 start /opt/bitnami/apache2/htdocs/cs201r/midterm_2_music
+> node ./bin/www
+
+[0mGET /index.html [36m304 [0m8.702 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m2.106 ms - -[0m
+[0mGET /songs [36m304 [0m17.925 ms - -[0m
+[0mPUT /songs/564e7f4e5c8a133d04249884/upvote [32m200 [0m15.804 ms - 235[0m
+[0mPUT /songs/564e7f4e5c8a133d04249884/upvote [32m200 [0m3.248 ms - 235[0m
+[0mPUT /songs/564e7f4e5c8a133d04249884/upvote [32m200 [0m2.474 ms - 235[0m
+[0mPUT /songs/564e7f4e5c8a133d04249884/upvote [32m200 [0m2.239 ms - 236[0m
+[0mPUT /songs/564e7d392a6561f7039b6660/upvote [32m200 [0m3.158 ms - 202[0m
+[0mPUT /songs/564e7d392a6561f7039b6660/upvote [32m200 [0m2.286 ms - 202[0m
+[0mPUT /songs/564e7d392a6561f7039b6660/upvote [32m200 [0m2.496 ms - 202[0m
+[0mPUT /songs/564e7d392a6561f7039b6660/upvote [32m200 [0m3.944 ms - 202[0m
+[0mPUT /songs/564e7d392a6561f7039b6660/upvote [32m200 [0m3.745 ms - 203[0m
+[0mPUT /songs/564e7f4e5c8a133d04249884/upvote [32m200 [0m3.090 ms - 236[0m
+[0mPUT /songs/564e7729d2f00389028044fa/upvote [32m200 [0m3.668 ms - 234[0m
+[0mPUT /songs/564e7729d2f00389028044fa/upvote [32m200 [0m3.811 ms - 234[0m
+[0mPUT /songs/564e7729d2f00389028044fa/upvote [32m200 [0m2.678 ms - 234[0m
+[0mPUT /songs/564e7729d2f00389028044fa/upvote [32m200 [0m2.437 ms - 235[0m
+[0mGET /index.html [36m304 [0m0.565 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m0.400 ms - -[0m
+[0mGET /songs [32m200 [0m2.296 ms - 10892[0m
+[0mGET /index.html [36m304 [0m0.470 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m0.429 ms - -[0m
+[0mGET /songs [36m304 [0m2.106 ms - -[0m
+[0mGET /index.html [32m200 [0m3.291 ms - 1250[0m
+[0mGET /javascripts/app.js [32m200 [0m1.447 ms - 2252[0m
+[0mGET /songs [32m200 [0m2.221 ms - 10892[0m
+[0mGET /favicon.ico [33m404 [0m239.986 ms - 1718[0m
+[0mPUT /songs/564e7d392a6561f7039b6660/upvote [32m200 [0m4.258 ms - 203[0m
+[0mPUT /songs/564e7f4e5c8a133d04249884/upvote [32m200 [0m4.076 ms - 236[0m
+[0mPUT /songs/564e7729d2f00389028044fa/upvote [32m200 [0m10.350 ms - 235[0m
+[0mGET /index.html [36m304 [0m0.788 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m3.238 ms - -[0m
+[0mGET /songs [32m200 [0m3.015 ms - 10892[0m
+[0mPUT /songs/564e7e122a6561f7039b6661/upvote [32m200 [0m5.257 ms - 10213[0m
+[0mPUT /songs/564e7e122a6561f7039b6661/upvote [32m200 [0m4.213 ms - 10213[0m
+[0mPUT /songs/564e7d392a6561f7039b6660/upvote [32m200 [0m2.369 ms - 203[0m
+[0mPUT /songs/564e7729d2f00389028044fa/upvote [32m200 [0m5.874 ms - 235[0m
+[0mPUT /songs/564e7729d2f00389028044fa/upvote [32m200 [0m3.103 ms - 235[0m
+[0mPUT /songs/564e7729d2f00389028044fa/upvote [32m200 [0m2.211 ms - 235[0m
+[0mPUT /songs/564e7729d2f00389028044fa/upvote [32m200 [0m2.187 ms - 235[0m
+[0mPUT /songs/564e7729d2f00389028044fa/upvote [32m200 [0m3.854 ms - 235[0m
+[0mPUT /songs/564e7729d2f00389028044fa/upvote [32m200 [0m2.541 ms - 235[0m
+[0mPUT /songs/564e7d392a6561f7039b6660/upvote [32m200 [0m2.338 ms - 203[0m
+[0mPUT /songs/564e7d392a6561f7039b6660/upvote [32m200 [0m2.555 ms - 203[0m
+[0mPUT /songs/564e7d392a6561f7039b6660/upvote [32m200 [0m2.890 ms - 203[0m
+[0mPUT /songs/564e7d392a6561f7039b6660/upvote [32m200 [0m3.155 ms - 203[0m
+[0mPUT /songs/564e7d392a6561f7039b6660/upvote [32m200 [0m3.314 ms - 203[0m
+[0mPUT /songs/564e7d392a6561f7039b6660/upvote [32m200 [0m3.678 ms - 203[0m
+[0mPUT /songs/564e7d392a6561f7039b6660/upvote [32m200 [0m3.522 ms - 203[0m
+[0mPUT /songs/564e7d392a6561f7039b6660/upvote [32m200 [0m3.322 ms - 203[0m
+[0mPUT /songs/564e7d392a6561f7039b6660/upvote [32m200 [0m3.258 ms - 203[0m
+[0mPUT /songs/564e7d392a6561f7039b6660/upvote [32m200 [0m3.751 ms - 203[0m
+[0mPUT /songs/564e7d392a6561f7039b6660/upvote [32m200 [0m3.222 ms - 203[0m
+[0mPUT /songs/564e7d392a6561f7039b6660/upvote [32m200 [0m4.701 ms - 203[0m
+[0mPUT /songs/564e7d392a6561f7039b6660/upvote [32m200 [0m2.157 ms - 203[0m
+[0mGET /index.html [36m304 [0m0.682 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m0.711 ms - -[0m
+[0mGET /songs [32m200 [0m2.553 ms - 10892[0m
+[0mGET /index.html [32m200 [0m1.491 ms - 1250[0m
+[0mGET /javascripts/app.js [32m200 [0m0.858 ms - 2252[0m
+[0mGET /songs [32m200 [0m3.199 ms - 10892[0m
+[0mGET /favicon.ico [33m404 [0m37.745 ms - 1718[0m
+[0mPUT /songs/564e7d392a6561f7039b6660/upvote [32m200 [0m3.788 ms - 203[0m
+[0mPUT /songs/564e7d392a6561f7039b6660/upvote [32m200 [0m2.083 ms - 203[0m
+[0mGET /index.html [36m304 [0m0.576 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m0.993 ms - -[0m
+[0mGET /songs [32m200 [0m3.780 ms - 10892[0m
+[0mGET /index.html [36m304 [0m0.530 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m0.339 ms - -[0m
+[0mGET /songs [36m304 [0m2.065 ms - -[0m
+[0mGET / [32m200 [0m1.174 ms - 1250[0m
+[0mGET /javascripts/app.js [32m200 [0m0.755 ms - 2252[0m
+[0mGET /songs [32m200 [0m3.068 ms - 10892[0m
+[0mGET /favicon.ico [33m404 [0m40.945 ms - 1718[0m
+[0mGET /songs [32m200 [0m2.845 ms - 10892[0m
+[0mGET /favicon.ico [33m404 [0m17.245 ms - 1718[0m
+[0mGET /index.html [32m200 [0m1.186 ms - 1250[0m
+[0mGET /javascripts/app.js [32m200 [0m2.455 ms - 2252[0m
+[0mGET /songs [36m304 [0m3.916 ms - -[0m
+[0mGET /index.html [32m200 [0m0.927 ms - 1250[0m
+[0mGET /javascripts/app.js [32m200 [0m0.969 ms - 2252[0m
+[0mGET /songs [32m200 [0m5.868 ms - 10892[0m
+[0mGET /favicon.ico [33m404 [0m51.496 ms - 1718[0m
+[0mGET / [32m200 [0m2.462 ms - 1250[0m
+[0mGET /javascripts/app.js [32m200 [0m1.301 ms - 2252[0m
+[0mGET /songs [32m200 [0m2.963 ms - 10892[0m
+[0mGET /favicon.ico [33m404 [0m29.402 ms - 1718[0m
+[0mGET /index.html [32m200 [0m0.959 ms - 1250[0m
+[0mGET /javascripts/app.js [36m304 [0m0.600 ms - -[0m
+[0mGET /songs [36m304 [0m3.406 ms - -[0m
+[0mGET /index.html [36m304 [0m1.467 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m0.480 ms - -[0m
+[0mGET /songs [36m304 [0m2.524 ms - -[0m
+[0mGET / [36m304 [0m1.012 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m1.238 ms - -[0m
+[0mGET /songs [36m304 [0m2.864 ms - -[0m
+[0mGET / [36m304 [0m0.490 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m0.554 ms - -[0m
+[0mGET /songs [36m304 [0m2.030 ms - -[0m
+[0mPUT /songs/564e7d392a6561f7039b6660/upvote [32m200 [0m2.711 ms - 203[0m
+[0mPUT /songs/564e7d392a6561f7039b6660/upvote [32m200 [0m2.764 ms - 203[0m
+[0mPUT /songs/564e7e122a6561f7039b6661/upvote [32m200 [0m3.218 ms - 10213[0m
+[0mPUT /songs/564e7e122a6561f7039b6661/upvote [32m200 [0m4.510 ms - 10213[0m
+[0mPUT /songs/564e7e122a6561f7039b6661/upvote [32m200 [0m2.747 ms - 10214[0m
+[0mPUT /songs/564e7e122a6561f7039b6661/upvote [32m200 [0m2.351 ms - 10214[0m
+[0mPUT /songs/564e7e122a6561f7039b6661/upvote [32m200 [0m4.495 ms - 10214[0m
+[0mPUT /songs/564e7e122a6561f7039b6661/upvote [32m200 [0m2.430 ms - 10214[0m
+[0mPUT /songs/564e7e122a6561f7039b6661/upvote [32m200 [0m3.261 ms - 10214[0m
+[0mPUT /songs/564e7e122a6561f7039b6661/upvote [32m200 [0m2.621 ms - 10214[0m
+[0mPUT /songs/564e7e122a6561f7039b6661/upvote [32m200 [0m2.279 ms - 10214[0m
+[0mPUT /songs/564e7e122a6561f7039b6661/upvote [32m200 [0m3.404 ms - 10214[0m
+[0mPUT /songs/564e7e122a6561f7039b6661/upvote [32m200 [0m2.298 ms - 10214[0m
+[0mPUT /songs/564e7e122a6561f7039b6661/upvote [32m200 [0m3.640 ms - 10214[0m
+[0mPUT /songs/564e7e122a6561f7039b6661/upvote [32m200 [0m3.673 ms - 10214[0m
+[0mPUT /songs/564e7e122a6561f7039b6661/upvote [32m200 [0m5.151 ms - 10214[0m
+[0mPUT /songs/564e7e122a6561f7039b6661/upvote [32m200 [0m2.760 ms - 10214[0m
+[0mPUT /songs/564e7e122a6561f7039b6661/upvote [32m200 [0m2.444 ms - 10214[0m
+[0mPUT /songs/564e7e122a6561f7039b6661/upvote [32m200 [0m4.976 ms - 10214[0m
+[0mPUT /songs/564e7e122a6561f7039b6661/upvote [32m200 [0m2.271 ms - 10214[0m
+[0mPUT /songs/564e7e122a6561f7039b6661/upvote [32m200 [0m2.332 ms - 10214[0m
+[0mPUT /songs/564e7e122a6561f7039b6661/upvote [32m200 [0m3.641 ms - 10214[0m
+[0mPUT /songs/564e7e122a6561f7039b6661/upvote [32m200 [0m2.865 ms - 10214[0m
+[0mGET / [36m304 [0m0.634 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m0.508 ms - -[0m
+[0mGET /songs [32m200 [0m2.560 ms - 10893[0m
+[0mGET /index.html [32m200 [0m1.068 ms - 1250[0m
+[0mGET /javascripts/app.js [32m200 [0m1.032 ms - 2252[0m
+[0mGET /songs [32m200 [0m2.960 ms - 10893[0m
+[0mGET /favicon.ico [33m404 [0m44.489 ms - 1718[0m
+[0mGET / [32m200 [0m1.015 ms - 1250[0m
+[0mGET /javascripts/app.js [32m200 [0m1.077 ms - 2252[0m
+[0mGET /songs [32m200 [0m7.828 ms - 10893[0m
+[0mGET /favicon.ico [33m404 [0m14.244 ms - 1718[0m
+[0mGET / [32m200 [0m3.454 ms - 1250[0m
+[0mGET /javascripts/app.js [32m200 [0m3.852 ms - 2252[0m
+[0mGET /songs [32m200 [0m2.988 ms - 10893[0m
+[0mGET /favicon.ico [33m404 [0m16.017 ms - 1718[0m
+[0mPUT /songs/564e7f4e5c8a133d04249884/upvote [32m200 [0m2.287 ms - 236[0m
+[0mGET / [36m304 [0m0.555 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m0.534 ms - -[0m
+[0mGET /songs [32m200 [0m5.174 ms - 10893[0m
+[0mGET / [32m200 [0m1.012 ms - 1250[0m
+[0mGET /robots.txt [33m404 [0m14.839 ms - 1718[0m
+[0mGET /sitemap.xml [33m404 [0m9.603 ms - 1718[0m
+[0mGET / [32m200 [0m1.280 ms - 1250[0m
+[0mGET /index.html [32m200 [0m0.762 ms - 1250[0m
+[0mGET /javascripts/app.js [32m200 [0m0.742 ms - 2252[0m
+[0mGET /songs [32m200 [0m3.963 ms - 10893[0m
+[0mGET /favicon.ico [33m404 [0m17.338 ms - 1718[0m
+Terminated
+
+npm ERR! Linux 3.13.0-65-generic
+npm ERR! argv "/opt/bitnami/nodejs/bin/.node.bin" "/opt/bitnami/nodejs/bin/npm" "start"
+npm ERR! node v4.1.1
+npm ERR! npm  v2.14.4
+npm ERR! code ELIFECYCLE
+npm ERR! midterm_2_music@0.0.0 start: `node ./bin/www`
+npm ERR! Exit status 143
+npm ERR! 
+npm ERR! Failed at the midterm_2_music@0.0.0 start script 'node ./bin/www'.
+npm ERR! This is most likely a problem with the midterm_2_music package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node ./bin/www
+npm ERR! You can get their info via:
+npm ERR!     npm owner ls midterm_2_music
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /opt/bitnami/apache2/htdocs/cs201r/midterm_2_music/npm-debug.log
