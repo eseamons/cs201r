@@ -999,6 +999,11 @@ function search_form($form, &$form_state, $action = '', $keys = '', $module = NU
 							success: function (response) {
 								$items = response["items"];
 								
+								if(response["queries"]["request"][0].totalResults == 0) {
+									$("#search_results").append("<p style=\"font-size:15px;\">No Results</p>");
+								}
+								
+								
 								$.each($items,function(key) {
 									//alert(JSON.stringify($items[key]));
 									$("#search_results").append("<a href=\""+$items[key].link+"\" style=\"color:blue;font-size:15px;text-decoration: underline;cursor:pointer;\" target=\"\_blank\">"+$items[key].htmlTitle+"</a><br><span style=\"color:#008000\">"+$items[key].link+"</span><br><p>"+$items[key].htmlSnippet+"</p>");
