@@ -993,8 +993,8 @@ function search_form($form, &$form_state, $action = '', $keys = '', $module = NU
 							url: "https://www.googleapis.com/customsearch/v1?",
 							data: {
 								q: "'.$keys.'",
-								key: "AIzaSyCGKAKwWRWuEun_ChJsIPdgs1_pFb9jvUA",
-								cx: "000296110064870388738:qfo4lvanmgm",
+								key: "AIzaSyC3FEoEuL0q9IWCxTc80qhOZQZotJyzXHw", //go to google developer\'s console for student_sec@cs.byu.edu
+								cx: "010274002535421313799:mizun2jnn00", // go to google cse for student_sec@cs.byu.edu
 							},
 							success: function (response) {
 								$items = response["items"];
